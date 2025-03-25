@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuarios</title>
+
+    
+    <link rel="stylesheet" href="Estilos/post.css">
+    <link rel="icon" href="Favicons/icons8-enterprise-50.png">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html"><button class="botao-seletor">Voltar á home</button></a>
+        <div class="form_box">
+    <form action="http://localhost:8083/Usuarios/salvar" id="formusuario" class="needs-validation">
+        <h2>Cadastro de Usuarios</h2>
+<label for="nome" class="form-label"></label>
+<input type="text" name="nome" placeholder="Digite seu nome completo" id="nomedosusuario" class="form-control hidden" required>
+
+<label for="email" class="form-label"></label>
+<input type="email" name="email" placeholder="Digite seu email" id="emaildousuario" class="form-control" required>
+
+<label for="cpf" class="form-label"></label>
+<input type="text" name="cpf" placeholder="Digite seu cpf" id="cpfdousuario" class="form-control" required>
+
+ <button type="submit">Enviar</button>
+
+
+           </form>
+        
+
+
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
